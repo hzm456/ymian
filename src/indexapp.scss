@@ -1,0 +1,265 @@
+.body {
+    max-width: 1440px;
+    height: 300px;
+    background-color: #2D2765;
+    position: relative;
+    box-sizing: content-box;
+
+    .body_img {
+        position: absolute;
+        width: 1440px;
+        left: 0;
+        top: 0;
+    }
+
+    .body_img_ren_body {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+
+        .body_img_ren {
+            margin-right: 36px;
+            width: 336px;
+        }
+
+        .body_img_ren_wen {
+            color: white;
+            padding: 64px 0 0;
+            height: 100%;
+            box-sizing: border-box;
+
+            p:nth-child(-n+2) {
+                font-size: 30px;
+                font-weight: 300;
+                margin: 0px;
+                // height: 72px;
+            }
+
+            p:nth-child(3) {
+                margin: 0;
+                font-weight: 500;
+                font-size: 72px;
+            }
+        }
+    }
+
+    .body_img_right_body {
+        position: absolute;
+        top: 90px;
+        right: 60px;
+
+        .body_img_right_body_time {
+            position: absolute;
+            right: 0;
+            top: -48px;
+        }
+
+        .body_img_right_wen {
+            width: 534px;
+            height: 150px;
+            background-color: #D7D4FC;
+
+            img {
+                width: 534px;
+                height: 150px;
+            }
+
+            .body_img_right_wen_left {
+                position: absolute;
+                left: 52px;
+                top: 35px;
+                text-align: center;
+                color: #1E1F26;
+
+                div:nth-child(1) {
+                    font-weight: 600;
+                    font-size: 36px;
+                }
+
+                div:nth-child(2) {
+                    font-weight: 500;
+                    font-size: 20px;
+                }
+            }
+
+            .body_img_right_wen_right {
+                position: absolute;
+                top: 20px;
+                left: 183px;
+
+                p {
+                    margin: 0px;
+                }
+
+                p:nth-child(1) {
+                    color: #1E1F26;
+                    // font-family: Avenir Next;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 27px;
+                    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                }
+
+                p:nth-child(n+2) {
+                    transform-origin: left;
+                    white-space:nowrap;
+                    font-size: 12px;
+                    line-height: 18px;
+                    color: #4D5360;
+                }
+
+                button {
+                    margin-top: 12px;
+                    width: 206px;
+                    line-height: 32px;
+                    font-size: 12px;
+                    text-align: center;
+                    background-color: #272833;
+                    color: white;
+                }
+            }
+        }
+    }
+
+
+}
+
+.body1 {
+    width: 100vw;
+    height: 106.3802083333vw;
+    background-color: #2D2765;
+    position: relative;
+
+    .body1_img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .body1_img2 {
+        position: absolute;
+        left: 39.20703125vw;
+        top: -4.9036458333vw;
+        width: 100%;
+    }
+
+    .body1_wen {
+        position: absolute;
+        top: 7.8125vw;
+        left: 7.8125vw;
+        color: white;
+
+        p:nth-child(-n+2) {
+            // font-family: ;
+            font-size: 4.1666666667vw;
+            line-height: 6.1197916667vw;
+            margin: 0;
+        }
+
+        p:nth-child(n+3) {
+            font-size: 16.9270833333vw;
+            font-weight: 500;
+            line-height: 0.9900000095367432;
+            margin: 0;
+        }
+    }
+
+    .body1_img_right_body {
+        position: absolute;
+        bottom: 7.8125vw;
+        left: 7.8125vw;
+
+        .body1_img_right_body_time {
+            position: absolute;
+            left: 0;
+            top: -8.7239583333vw;
+            .coupon{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                span{
+                    color: white;
+                    margin: 4px;
+                }
+                div{
+                    width: 4.5572916667vw;
+                    height:4.5572916667vw;
+                    background-color: rgb(215, 212, 252);
+                    text-align: center;
+                    line-height: 4.5572916667vw;
+                    font-size: 3.125vw;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .body1_img_right_wen {
+            width: 84.375vw;
+            height: 26.5625vw;
+            background-color: #D7D4FC;
+
+            img {
+                width: 100%;
+            }
+
+            .body1_img_right_wen_left {
+                position: absolute;
+                left: 7.03125vw;
+                top: 7.2916666667vw;
+                margin-right: 60px;
+                text-align: center;
+                color: #1E1F26;
+
+                div:nth-child(1) {
+                    font-weight: 600;
+                    font-size: 5.46875vw;
+                    line-height: 8.0729166667vw;
+                }
+
+                div:nth-child(2) {
+                    font-weight: 600;
+                    font-size: 3.3854166667vw;
+                    line-height: 4.9479166667vw;
+                }
+            }
+
+            .body1_img_right_wen_right {
+                position: absolute;
+                top: 3.125vw;
+                left: 27.34375vw;
+
+                p {
+                    margin: 0px;
+                }
+
+                p:nth-child(1) {
+                    color: #1E1F26;
+                    font-family: Avenir Next;
+                    font-size: 3.3854166667vw;
+                    font-weight: 500;
+                    line-height: 4.9479166667vw;
+                    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                }
+
+                p:nth-child(n+2) {
+                    font-family: Avenir Next;
+                    font-size: 2.34375vw;
+                    line-height: 3.2552083333vw;
+                    color: #4D5360;
+                }
+
+                button {
+                    margin-top: 1.4322916667vw;
+                    width: 43.5559895833vw;
+                    line-height: 7.03125vw;
+                    font-size: 3.125vw;
+                    text-align: center;
+                    background-color: #272833;
+                    color: white;
+                }
+            }
+        }
+    }
+}
