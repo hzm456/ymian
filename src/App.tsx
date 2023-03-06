@@ -7,7 +7,7 @@ function App() {
   const [pdwidth, setPdwidth] = useState(false)
   const [width,setWidth]=useState(1440)
   const resizeUpdate = (e: any) => {
-    if(e.target.innerWidth<=1440&&e.target.innerWidth>768){
+    if((e.target.innerWidth<=1440&&e.target.innerWidth>768)||(e.target.innerWidth<=520)){
       setWidth(e.target.innerWidth)
     }
     if (e.target.innerWidth <= 768) {
@@ -76,8 +76,8 @@ function App() {
               </div>
               <div className='body1_img_right_wen_right'>
                 <p>Welcome Coupom</p>
-                <p>Save up to 20€. All items included.</p>
-                <p >Min. spend: 10,00€. Valid for 30 day(s)</p>
+                <p  style={{transform:`scale(${width<=520?width/520:1})`}}>Save up to 20€. All items included.</p>
+                <p  style={{transform:`scale(${width<=520?width/520:1})`}}>Min. spend: 10,00€. Valid for 30 day(s)</p>
                 <button>I want it!</button>
               </div>
             </div>
